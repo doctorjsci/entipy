@@ -8,6 +8,6 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - pytest tests
+  - pytest
 notifications:
   webhooks: http://62.171.164.187:5000/travisci

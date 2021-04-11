@@ -1,1 +1,3 @@
-assert True
+
+def test_assignment():
+    assert True
