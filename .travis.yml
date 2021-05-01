@@ -1,0 +1,15 @@
+branches:
+  only:
+  - master
+  - /^assess-.*$/
+language: python
+python:
+  - "3.9"
+before_install:
+  - python -m setup bdist_wheel
+install:
+  - pip install ./dist/Entipy-1.0-py3-none-any.whl
+script:
+  - pytest
+notifications:
+  webhooks: http://api.pythonclassic.com/travisci
