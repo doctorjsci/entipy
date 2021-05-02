@@ -29,6 +29,8 @@ pillow==8.2.0
     # via matplotlib
 pluggy==0.13.1
     # via pytest
+psycopg2==2.8.6
+    # via -r requirements.in
 py==1.10.0
     # via pytest
 pyparsing==2.4.7
