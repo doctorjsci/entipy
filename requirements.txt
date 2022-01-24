@@ -52,6 +52,6 @@ sqlalchemy==1.4.12
 toml==0.10.2
     # via pytest
 
-web3==5.26.0
-eth-tester==0.6.0b5
-py-evm==0.5.0a2
+web3
+eth-tester
+py-evm
