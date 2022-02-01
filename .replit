@@ -1,0 +1,2 @@
+language = "python3"
+onBoot = "python replit_config.py"
